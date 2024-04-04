@@ -1,6 +1,6 @@
 <?php
 	$id = $_GET['id'];
-	include 'visualizar_produto_back.php';
+	include 'buscar_produto_back.php';
 	include 'estrutura/header_front.php';
 ?>
 

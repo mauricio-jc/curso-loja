@@ -22,7 +22,7 @@
 			<tbody>
 				<?php foreach($produtos as $produto): ?>
 				<tr>
-					<td class="center">1</td>
+					<td class="center"><?php echo $produto['id']; ?></td>
 					<td><?php echo $produto['nome']; ?></td>
 					<td>R$ <?php echo $produto['preco']; ?></td>
 					<td class="center"><?php echo $produto['quantidade']; ?></td>
