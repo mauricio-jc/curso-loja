@@ -8,6 +8,7 @@
 		<hr>
 		
 		<a href="inserir_produto_front.php" class="btn btn-success">Adicionar</a>
+		<a href="login_front.php" class="btn btn-danger">Sair do sistema</a>
 
 		<table>
 			<thead>
