@@ -7,7 +7,7 @@
 		<h1>Bem-vindo!</h1>
 		<hr>
 		
-		<a href="#" class="btn btn-success">Adicionar</a>
+		<a href="inserir_produto_front.php" class="btn btn-success">Adicionar</a>
 
 		<table>
 			<thead>
