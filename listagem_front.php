@@ -27,8 +27,9 @@
 					<td>R$ <?php echo $produto['preco']; ?></td>
 					<td class="center"><?php echo $produto['quantidade']; ?></td>
 					<td class="center">
-						<a href="#" class="btn btn-sm btn-primary">Editar</a>
-						<a href="#" class="btn btn-sm btn-danger">Excluir</a>
+						<a href="visualizar_produto_front.php?id=<?php echo $produto['id']; ?>" class="btn btn-sm btn-info">Visualizar</a>
+						<a href="editar_produto_front.php?id=<?php echo $produto['id']; ?>" class="btn btn-sm btn-primary">Editar</a>
+						<a href="excluir_produto_back.php?id=<?php echo $produto['id']; ?>" class="btn btn-sm btn-danger">Excluir</a>
 					</td>
 				</tr>
 				<?php endforeach; ?>
